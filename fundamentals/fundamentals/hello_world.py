@@ -9,7 +9,7 @@ print("Hello " + name)	# with a +
 # 3. print "Hello 42!" with the number in a variable
 name = 10
 print("Hello", name)	# with a comma
-print("Hello " + str(name))	# with a +	-- this one should give us an error!
+print("Hello " + str(name))	# with a +	-- this one should give us an error! --Added str(name) to prevent error.
 
 # 4. print "I love to eat sushi and pizza." with the foods in variables
 fave_food1 = "chicken"
